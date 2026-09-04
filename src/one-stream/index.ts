@@ -46,10 +46,13 @@ export {
 } from "./writer.ts";
 export {
   BlockedReplyRouter,
+  CanonicalBlockedReplyResolutionPort,
   MessageTreeWorkspaceReplyDelivery,
   ReplyRouteError,
 } from "./reply-router.ts";
 export type {
+  BlockedReplyResolutionPort,
+  CanonicalBlockedReplyResolutionOptions,
   ReplyCandidate,
   ReplyRouteErrorCode,
   ReplyRouteRequest,
